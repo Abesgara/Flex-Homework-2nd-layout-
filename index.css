@@ -1,0 +1,60 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+    justify-self: center;
+    align-self: center;
+}
+
+.item1 {
+    height: 150px;
+    width: 200px;
+    background-color: aqua;
+    
+}
+.item2 {
+    height: 150px;
+    width: 200px;
+    background-color:yellow ;
+    
+}
+
+
+.row {
+    display: flex ;
+}
+
+.flex-vertical {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.item3 {
+    height: 310px;
+    width: 200px;
+    background-color: rgb(46, 77, 219);
+    margin-right: 2%;
+}
+
+.item4 {
+    height:300px ;
+    width: 392px;
+    background-color: rgb(235, 32, 126);
+    margin-right: 2%;
+}
+
+.item5 {
+    height: 618px;
+    width: 200px;
+    background-color: lime;
+    
+}
